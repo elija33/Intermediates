@@ -1,0 +1,92 @@
+h1{
+  text-align: center;
+}
+
+div.gall img{
+  width: 100%;
+  height: auto;
+}
+
+nav{
+  list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+div.sale{
+  padding: 15px;
+  text-align: center;
+  display: inline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2{
+  text-align: center;
+}
+
+.gall{
+  width: 30%;
+}
+
+.sale{
+
+}
+
+table{
+  font-family: arial, serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+  border: 1px solid;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even){
+  background: #dddddd;
+}
+
+div.gall{
+  border: 1px solid #ccc;
+}
+
+.lists{
+  display: flex;
+}
+
+a: link, a:visited{
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active{
+  background-color: red;
+}
